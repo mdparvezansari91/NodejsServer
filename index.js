@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8000
 app.use("/api",router);
 
 app.get("/", (req, res) => {
-    res.send("Hello world");
+    res.send("Hello world mondified");
 });
 
 app.listen(PORT,()=>{
